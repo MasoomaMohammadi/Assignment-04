@@ -1,0 +1,143 @@
+body {
+  background-color: #D8D3CF;
+  margin: 0;
+  padding: 0;
+  font-family:sref;
+}
+
+.navigation-menu {
+  background-color: #333;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 0;
+  width: 100%;
+  position:fixed;
+  overflow:hidden;
+  top:0;
+  rigth:0;
+  left:0;
+}
+
+.navigation-menu a {
+    color:#fff;
+    padding:0 14px;
+    text-decoration: none;
+}
+
+.navigation-menu a:hover {
+  background-color: #fff;
+}
+
+a:hover {
+    color:#B81F07;
+}
+
+.product-container {
+  background-color:#fff;
+  width: 800px;
+  margin:auto;
+  padding:20px;
+  text-align:center;
+  margin-top:30px;
+}
+
+.row {
+  display:flex;
+  gap:20px;
+}
+
+.product-image {
+  
+}
+
+.promo-code {
+    background-color:#D8D3CF;
+    padding:5px 2px;
+    border:2px solid #B81F07;
+    bottom: 10px;
+    margin:36px 36px 0 36px;
+}
+
+.product-detail {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  font-size:20px;
+}
+
+.names-product {
+    text-align:start;
+    margin-top:32px;
+}
+
+.row2{
+  display:flex;
+}
+
+.related-product {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #B81F07;
+  background-color: #D8D3CF;
+  text-align: center;
+}
+
+.related-product img {
+  width: 100%;
+  height: 100px;
+}
+
+.related-product-name {
+  background-color: #B81F07;
+  color:#fff;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color:#fff;
+  text-align:center;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+/* *********************************************************** */
+/* About Us */
+.product-container-2 {
+  background-color:#fff;
+  width: 800px;
+  margin:auto;
+  padding:20px;
+  text-align:start;
+  margin-top:30px;
+}
+
+  .main-image {
+    position: relative;
+  }
+  .image-caption {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color:#D8D3CF;
+    padding:8px;
+    border:2px solid #B81F07;
+  }
+  .main-image:hover .image-caption {
+    display: block;
+  }
+
+.Team-Members {
+  display:flex;
+  text-align:center;
+  gap:40px;
+  padding:20px 30px;
+}
+
+.Members img {
+border-radius:50%;
+}
